@@ -1,0 +1,14 @@
+{
+    "name": "cold-fingers",
+    "author": "Sufian Rhazi <sufian@gmail.com>",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "type": "module",
+    "dependencies": {
+        "@srhazi/gooey": "0.18.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.6.2",
+        "vite": "latest"
+    }
+}

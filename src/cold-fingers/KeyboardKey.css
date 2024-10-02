@@ -1,0 +1,15 @@
+.KeyboardKey {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: hsl(var(--hue) var(--saturation) 50%);
+    background-color: hsl(var(--hue) 0 10%);
+    transition: background-color 24ms;
+    font-weight: bold;
+}
+.KeyboardKey--pressed {
+    color: hsl(var(--hue) 0 0);
+    background-color: hsl(var(--hue) var(--saturation) 50%);
+}
